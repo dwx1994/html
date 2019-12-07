@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/main"
+ 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "掌上酷游",
+    "navigationBarTextStyle": "black"
+  }
+
+}
