@@ -1,0 +1,248 @@
+{
+  "mtimes": {
+    "d202dbbf-72ea-4b06-a6bb-921d5cc63288": {
+      "assetMtime": 1569334764000,
+      "metaMtime": 1576138273656
+    },
+    "aee26a8f-5e10-4ed4-80b6-28d6360988ed": {
+      "assetMtime": 1569331450000,
+      "metaMtime": 1576139249342
+    },
+    "9090456a-8bc8-4083-b782-0659abd011ee": {
+      "assetMtime": 1569331450000,
+      "metaMtime": 1576139249342
+    },
+    "b77278d9-c617-405f-8f3d-60d367870162": {
+      "assetMtime": 1569325606000,
+      "metaMtime": 1576139249155
+    },
+    "440b4057-1e9b-4761-9383-d499ce94548c": {
+      "assetMtime": 1569325606000,
+      "metaMtime": 1576139249155
+    },
+    "d0d8f1a4-efb1-4bbd-8e4d-d118bb611fc0": {
+      "assetMtime": 1569324802000,
+      "metaMtime": 1576139249097
+    },
+    "1eca7421-bcf0-47ed-aeb4-67d1700c4872": {
+      "assetMtime": 1569324802000,
+      "metaMtime": 1576139249097
+    },
+    "e0e06ad8-0476-4c71-a3b5-bc40ea3d63b6": {
+      "assetMtime": 1569324802000,
+      "metaMtime": 1576139249147
+    },
+    "f5b353bd-e71f-40dc-a4c1-67828e1637e8": {
+      "assetMtime": 1569324802000,
+      "metaMtime": 1576139249147
+    },
+    "e2576362-f486-4bbc-8351-052b4b6e9d0f": {
+      "assetMtime": 1569333244000,
+      "metaMtime": 1576139249220
+    },
+    "59192553-362e-4f40-a9b9-50a9c10860ac": {
+      "assetMtime": 1569333244000,
+      "metaMtime": 1576139249220
+    },
+    "efa07441-0868-4eb0-afa1-024d416384c9": {
+      "assetMtime": 1569333552000,
+      "metaMtime": 1576139249325
+    },
+    "559a55f3-096b-4df7-b893-072f3a66e4a2": {
+      "assetMtime": 1569333552000,
+      "metaMtime": 1576139249325
+    }
+  },
+  "result": {
+    "name": "AutoAtlas-2",
+    "width": 506,
+    "height": 506,
+    "ver": "1.2.0",
+    "uuid": "d202dbbf-72ea-4b06-a6bb-921d5cc63288",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "heuristices": "BestAreaFit",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": false,
+    "platformSettings": {},
+    "subMetas": {},
+    "algorithm": "MaxRects",
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "timg",
+            "uuid": "aee26a8f-5e10-4ed4-80b6-28d6360988ed",
+            "textureUuid": "9090456a-8bc8-4083-b782-0659abd011ee",
+            "path": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\trimImages\\spritesheet_js_1576205531854_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 650,
+              "height": 642,
+              "rotatedWidth": 650,
+              "rotatedHeight": 642
+            },
+            "rawWidth": 650,
+            "rawHeight": 642,
+            "width": 656,
+            "height": 648,
+            "originalPath": "C:/Users/Administrator/Downloads/icon/library/imports/90/9090456a-8bc8-4083-b782-0659abd011ee.jpeg",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 656,
+            "rotatedHeight": 648
+          },
+          {
+            "name": "qrcode_for_gh_ae695b200e77_344 (1)",
+            "uuid": "efa07441-0868-4eb0-afa1-024d416384c9",
+            "textureUuid": "559a55f3-096b-4df7-b893-072f3a66e4a2",
+            "path": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\trimImages\\spritesheet_js_1576205531855_image_5.png",
+            "trim": {
+              "x": 659,
+              "y": 3,
+              "width": 344,
+              "height": 344,
+              "rotatedWidth": 344,
+              "rotatedHeight": 344
+            },
+            "rawWidth": 344,
+            "rawHeight": 344,
+            "width": 350,
+            "height": 350,
+            "originalPath": "C:/Users/Administrator/Downloads/icon/library/imports/55/559a55f3-096b-4df7-b893-072f3a66e4a2.jpg",
+            "x": 656,
+            "y": 0,
+            "rotatedWidth": 350,
+            "rotatedHeight": 350
+          },
+          {
+            "name": "2",
+            "uuid": "b77278d9-c617-405f-8f3d-60d367870162",
+            "textureUuid": "440b4057-1e9b-4761-9383-d499ce94548c",
+            "path": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\trimImages\\spritesheet_js_1576205531855_image_1.png",
+            "trim": {
+              "x": 659,
+              "y": 353,
+              "width": 268,
+              "height": 268,
+              "rotatedWidth": 268,
+              "rotatedHeight": 268
+            },
+            "rawWidth": 268,
+            "rawHeight": 268,
+            "width": 274,
+            "height": 274,
+            "originalPath": "C:/Users/Administrator/Downloads/icon/library/imports/44/440b4057-1e9b-4761-9383-d499ce94548c.png",
+            "x": 656,
+            "y": 350,
+            "rotatedWidth": 274,
+            "rotatedHeight": 274
+          },
+          {
+            "name": "1",
+            "uuid": "d0d8f1a4-efb1-4bbd-8e4d-d118bb611fc0",
+            "textureUuid": "1eca7421-bcf0-47ed-aeb4-67d1700c4872",
+            "path": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\trimImages\\spritesheet_js_1576205531855_image_2.png",
+            "trim": {
+              "x": 659,
+              "y": 627,
+              "width": 268,
+              "height": 268,
+              "rotatedWidth": 268,
+              "rotatedHeight": 268
+            },
+            "rawWidth": 268,
+            "rawHeight": 268,
+            "width": 274,
+            "height": 274,
+            "originalPath": "C:/Users/Administrator/Downloads/icon/library/imports/1e/1eca7421-bcf0-47ed-aeb4-67d1700c4872.png",
+            "x": 656,
+            "y": 624,
+            "rotatedWidth": 274,
+            "rotatedHeight": 274
+          },
+          {
+            "name": "3",
+            "uuid": "e0e06ad8-0476-4c71-a3b5-bc40ea3d63b6",
+            "textureUuid": "f5b353bd-e71f-40dc-a4c1-67828e1637e8",
+            "path": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\trimImages\\spritesheet_js_1576205531855_image_3.png",
+            "trim": {
+              "x": 3,
+              "y": 651,
+              "width": 268,
+              "height": 267,
+              "rotatedWidth": 268,
+              "rotatedHeight": 267
+            },
+            "rawWidth": 268,
+            "rawHeight": 268,
+            "width": 274,
+            "height": 273,
+            "originalPath": "C:/Users/Administrator/Downloads/icon/library/imports/f5/f5b353bd-e71f-40dc-a4c1-67828e1637e8.png",
+            "x": 0,
+            "y": 648,
+            "rotatedWidth": 274,
+            "rotatedHeight": 273
+          }
+        ],
+        "width": 1006,
+        "height": 921,
+        "name": "AutoAtlas-1",
+        "imagePath": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\TexturePacker\\build\\raw-assets\\textures\\AutoAtlas.pac\\AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\TexturePacker\\build\\raw-assets\\textures\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "db",
+            "uuid": "e2576362-f486-4bbc-8351-052b4b6e9d0f",
+            "textureUuid": "59192553-362e-4f40-a9b9-50a9c10860ac",
+            "path": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\trimImages\\spritesheet_js_1576205531855_image_4.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 500,
+              "height": 500,
+              "rotatedWidth": 500,
+              "rotatedHeight": 500
+            },
+            "rawWidth": 500,
+            "rawHeight": 500,
+            "width": 506,
+            "height": 506,
+            "originalPath": "C:/Users/Administrator/Downloads/icon/library/imports/59/59192553-362e-4f40-a9b9-50a9c10860ac.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 506,
+            "rotatedHeight": 506
+          }
+        ],
+        "width": 506,
+        "height": 506,
+        "name": "AutoAtlas-2",
+        "imagePath": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\TexturePacker\\build\\raw-assets\\textures\\AutoAtlas.pac\\AutoAtlas-2.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "C:\\Users\\Administrator\\Downloads\\icon\\temp\\TexturePacker\\build\\raw-assets\\textures\\AutoAtlas.pac\\compressed\\AutoAtlas-2"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}
