@@ -14,7 +14,9 @@
             document.location = `testkey://${data}`;
         } else {
             //browser 浏览器下，向cocos发送消息
-            parent.postMessage("------------hello!-----cocos---------", "*")
+            let data = {a:2};
+            data = JSON.stringify(data);
+            parent.postMessage("------------hello!-----cocos---------"+ data, "*")
         }
     }
 
