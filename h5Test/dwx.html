@@ -5,16 +5,13 @@
     </dev>
 </body>
 <script>
-    // function onClick () {
-    //     // 其中一个设置 URL 方案
-    //     document.location = 'testkey://a=1&b=2';
-    // }
-
     function onClick() {
         console.log("-------web--------onClick----->>cocos JS-------------", window.isNative)
         if (window.isNative) {
             //android or ios
-            document.location = 'testkey://a=1&b=2'
+            let data = {a:2};
+            data = JSON.stringify(data);
+            document.location = `testkey://${data}`;
         } else {
             //browser 浏览器下，向cocos发送消息
             parent.postMessage("------------hello!-----cocos---------", "*")
@@ -22,6 +19,7 @@
     }
 
     window.addEventListener('message', function (e) {
+
         var data = e.data;  //e.data  里面有自己所传的所有参数  可以根据参数做自己的判断
         console.log("--------------this is web message--------------", data)
     })
