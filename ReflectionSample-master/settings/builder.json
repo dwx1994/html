@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ReflectionSample",
+  "startScene": "11e2b048-2149-47ad-b174-88d377deddbb",
+  "title": "ReflectionSample",
+  "webOrientation": "auto"
+}
