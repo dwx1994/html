@@ -6,7 +6,7 @@
 </body>
 <script>
     function onClick() {
-        console.log("-------web--------onClick----->>cocos JS-------------", window.isNative)
+        console.log("-------web--------onClick----->>cocos JS-------------是否是原生", window.isNative)
         if (window.isNative) {
             //android or ios
             let data = {a:2};
@@ -16,18 +16,13 @@
             //browser 浏览器下，向cocos发送消息
             let data = {a:2};
             data = JSON.stringify(data);
-            parent.postMessage("------------hello!-----cocos---------"+ data, "*")
+            parent.postMessage("----------- web-->>cocos browser ------------"+ data, "*")
         }
     }
 
     window.addEventListener('message', function (e) {
-
         var data = e.data;  //e.data  里面有自己所传的所有参数  可以根据参数做自己的判断
         console.log("--------------this is web message--------------", data)
     })
-
-    function Test () {
-        console.log(`dwx2222`);
-    }
 </script>
 </html>
