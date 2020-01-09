@@ -8,6 +8,7 @@
     function onClick() {
         console.log("-------web--------onClick----->>cocos JS-------------是否是原生", window.isNative)
         var version = window.navigator.platform;
+        console.log('version'+version);
         if (version=="Win32" || version=="MacPPC" || version=="Linuxi586"){
             //browser 浏览器下，向cocos发送消息
             console.log("browser 浏览器下，向cocos发送消息");
