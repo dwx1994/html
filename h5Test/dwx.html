@@ -7,17 +7,28 @@
 <script>
     function onClick() {
         console.log("-------web--------onClick----->>cocos JS-------------是否是原生", window.isNative)
-        if (window.isNative) {
-            //android or ios
-            console.log("dwx android or ios");
-            document.location = `testkey://a=1&b=2`;
-        } else {
+        var version = window.navigator.platform;
+        if (version=="Win32" || version=="MacPPC" || version=="Linuxi586"){
             //browser 浏览器下，向cocos发送消息
             console.log("browser 浏览器下，向cocos发送消息");
             let data = {a:2};
             data = JSON.stringify(data);
             parent.postMessage(data, "*")
+        }else{
+            console.log("dwx android or ios");
+            document.location = `testkey://a=1&b=2`;
         }
+        // if (window.isNative) {
+        //     //android or ios
+        //     console.log("dwx android or ios");
+        //     document.location = `testkey://a=1&b=2`;
+        // } else {
+        //     //browser 浏览器下，向cocos发送消息
+        //     console.log("browser 浏览器下，向cocos发送消息");
+        //     let data = {a:2};
+        //     data = JSON.stringify(data);
+        //     parent.postMessage(data, "*")
+        // }
     }
 
     window.addEventListener('message', function (e) {
