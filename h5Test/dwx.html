@@ -16,7 +16,7 @@
             console.log("browser 浏览器下，向cocos发送消息");
             let data = {a:2};
             data = JSON.stringify(data);
-            parent.postMessage("----------- web-->>cocos browser ------------"+ data, "*")
+            parent.postMessage(data, "*")
         }
     }
 
