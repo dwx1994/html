@@ -9,9 +9,7 @@
         console.log("-------web--------onClick----->>cocos JS-------------是否是原生", window.isNative)
         if (window.isNative) {
             //android or ios
-            let data = {a:2};
-            data = JSON.stringify(data);
-            document.location = `testkey://${data}`;
+            document.location = `testkey://a=1&b=2`;
         } else {
             //browser 浏览器下，向cocos发送消息
             let data = {a:2};
