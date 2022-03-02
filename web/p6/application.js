@@ -138,7 +138,6 @@ System.register([], function (_export, _context) {
   }
 
   function initializeGame(cc, settings, findCanvas) {
-    cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
     if (settings.macros) {
       for (var key in settings.macros) {
         cc.macro[key] = settings.macros[key];
@@ -167,9 +166,7 @@ System.register([], function (_export, _context) {
     var launchScene = settings.launchScene; // load scene
 
     cc.director.loadScene(launchScene, null, function () {
-      let loading = document.getElementById(`loading`);
-      loading.remove();
-      cc.view.setDesignResolutionSize(750, 1334, 4);
+      cc.view.setDesignResolutionSize(960, 640, 4);
       console.log("Success to load scene: ".concat(launchScene));
     });
   }
