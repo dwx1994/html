@@ -175,18 +175,26 @@ System.register([], function (_export, _context) {
         }else{
             msg = JSON.parse(data);
         }
+        function func(params) {
+          cc.director.loadScene(launchScene, null, function () {
+            let loading = document.getElementById(`loading`);
+            loading.remove();
+            cc.view.setDesignResolutionSize(750, 1334, 4);
+            console.log("Success to load scene: ".concat(launchScene));
+          });
+        }
+        
+        if(data.roleType == 1){
+          func();
+        }else{
+          setTimeout(() => {
+            func();
+          }, 5000);
+        }
         console.log(`getCocosGameConfig : ${JSON.stringify(msg)}`);
         localStorage.setItem("gameConfig",JSON.stringify(msg));
       }
     });
-    setTimeout(() => {
-      cc.director.loadScene(launchScene, null, function () {
-        let loading = document.getElementById(`loading`);
-        loading.remove();
-        cc.view.setDesignResolutionSize(750, 1334, 4);
-        console.log("Success to load scene: ".concat(launchScene));
-      });
-    }, 2000);
   }
 
 
