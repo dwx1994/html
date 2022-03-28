@@ -8,14 +8,20 @@ System.register([], function (_export, _context) {
         fetchWasm = _ref.fetchWasm;
     // NOTE: before here we shall not import any module!
     var promise = Promise.resolve();
+    promise = promise.then(function () {
+      return topLevelImport('wait-for-ammo-instantiation');
+    }).then(function (_ref2) {
+      var waitForAmmoInstantiation = _ref2["default"];
+      return waitForAmmoInstantiation(fetchWasm(''));
+    });
     return promise.then(function () {
       return _defineProperty({
         start: start
       }, 'import', topLevelImport);
     });
 
-    function start(_ref3) {
-      var findCanvas = _ref3.findCanvas;
+    function start(_ref4) {
+      var findCanvas = _ref4.findCanvas;
       var settings;
       var cc;
       return Promise.resolve().then(function () {
@@ -138,7 +144,6 @@ System.register([], function (_export, _context) {
   }
 
   function initializeGame(cc, settings, findCanvas) {
-    cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
     if (settings.macros) {
       for (var key in settings.macros) {
         cc.macro[key] = settings.macros[key];
@@ -167,9 +172,7 @@ System.register([], function (_export, _context) {
     var launchScene = settings.launchScene; // load scene
 
     cc.director.loadScene(launchScene, null, function () {
-      let loading = document.getElementById(`loading`);
-      loading.remove();
-      cc.view.setDesignResolutionSize(750, 1334, 4);
+      cc.view.setDesignResolutionSize(1280, 960, 3);
       console.log("Success to load scene: ".concat(launchScene));
     });
   }
