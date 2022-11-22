@@ -1,0 +1,1 @@
+System.register([],(function(t){"use strict";return{execute:function(){t({g:function(t){return t.__cc_wrapper__},m:function(t){return Math.max(t.x,Math.max(t.y,t.z))},s:function(t,n){t.__cc_wrapper__=n}})}}}));
