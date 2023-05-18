@@ -1,0 +1,11 @@
+version: 1.0.1
+files:
+  - url: AutoUpdater-1.0.1-mac.zip
+    sha512: qBek/SG+P2uKQf3OKxUP50XG2bHEajkQcG08o8ADWxZ3XEw0B1jFe7ERwZBBTFeD1gloFMH6EfH8CYxYWGQqtQ==
+    size: 55075134
+  - url: AutoUpdater-1.0.1.dmg
+    sha512: oG4GB6CpGmOldKL48ibnRfhvvl6ghf7a1LcsASwzoGkwPytkX0gLVkUdpeATlV9EGnyHNTLM6lrZa1S2+rnInA==
+    size: 57859744
+path: AutoUpdater-1.0.1-mac.zip
+sha512: qBek/SG+P2uKQf3OKxUP50XG2bHEajkQcG08o8ADWxZ3XEw0B1jFe7ERwZBBTFeD1gloFMH6EfH8CYxYWGQqtQ==
+releaseDate: '2023-05-18T08:33:24.430Z'
