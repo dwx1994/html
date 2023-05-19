@@ -1,0 +1,22 @@
+directories:
+  output: dist
+  buildResources: build
+publish:
+  provider: generic
+  url: https://dwx1994.github.io/html
+appId: com.matiastucci.autoupdate
+productName: AutoUpdater
+mac:
+  category: public.app-category.developer-tools
+  icon: icons/icon.png
+win:
+  icon: icons/icon.ico
+  target:
+    - squirrel
+squirrelWindows:
+  iconUrl: https://raw.githubusercontent.com/matiastucci/electron-auto-updater-example/master/icons/icon.ico
+linux:
+  target:
+    - deb
+files: []
+electronVersion: 4.1.5

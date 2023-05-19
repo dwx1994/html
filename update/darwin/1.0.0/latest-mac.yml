@@ -1,11 +1,11 @@
 version: 1.0.0
 files:
   - url: AutoUpdater-1.0.0-mac.zip
-    sha512: +XOYJdDAKAIlwr3cUOav87/tKF+plBBOGl5tzEYukdDc2QJxlByvQjo/rHYNtICX+oYYYfGKHez4e90zmSLSGg==
-    size: 55075140
+    sha512: Ji68/mhmrtl57kShkXk/mc4Z5eCJxax5ci6Rdi4afe10D2ZfVdqasB5vNaYaFDjsdoZcAj7Au2GgNgYPGjVYcQ==
+    size: 55075672
   - url: AutoUpdater-1.0.0.dmg
-    sha512: y621cMZDmg0UQYK34o1GaRS1i2STPzVaOtqx/U/Qovw+w2KRGz+yl1IZqmXcfYjGpZX5jRIiBmvDW63Lw39duA==
-    size: 57860147
+    sha512: Mzk+VV984osRZRcg70pULKaEmM2rWyNlzB0P/yv3ULV6ShVkFUVqDADQb93e5wMLYD42PSTkTmnZSjAyqUhXJg==
+    size: 57868017
 path: AutoUpdater-1.0.0-mac.zip
-sha512: +XOYJdDAKAIlwr3cUOav87/tKF+plBBOGl5tzEYukdDc2QJxlByvQjo/rHYNtICX+oYYYfGKHez4e90zmSLSGg==
-releaseDate: '2023-05-18T08:53:57.558Z'
+sha512: Ji68/mhmrtl57kShkXk/mc4Z5eCJxax5ci6Rdi4afe10D2ZfVdqasB5vNaYaFDjsdoZcAj7Au2GgNgYPGjVYcQ==
+releaseDate: '2023-05-19T03:12:12.973Z'
